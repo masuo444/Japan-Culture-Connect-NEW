@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Japan Culture Connect (JCC) お問い合わせ - ご質問・ご相談はこちらから">
+    <meta name="keywords" content="JCC, Japan Culture Connect, お問い合わせ, コンタクト, 連絡先">
+
+    <!-- OGP Tags -->
+    <meta property="og:title" content="お問い合わせ - Japan Culture Connect (JCC)">
+    <meta property="og:description" content="Japan Culture Connectへのお問い合わせはこちらから。ご質問・ご相談お待ちしております。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://japancultureconnect.org/contact.html">
+    <meta property="og:image" content="https://japancultureconnect.org/images/ogp.jpg">
+    <meta property="og:site_name" content="Japan Culture Connect">
+    <meta property="og:locale" content="ja_JP">
+
+    <title>お問い合わせ - Japan Culture Connect (JCC)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <h1>JCC</h1>
+                    <span class="logo-subtitle">Japan Culture Connect</span>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="about.html">団体概要</a></li>
+                        <li><a href="project2026.html">プロジェクト2026</a></li>
+                        <li><a href="events.html">イベント</a></li>
+                        <li><a href="partners.html">連携先</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="hero">
+            <div class="container">
+                <h2>お問い合わせ</h2>
+                <p class="hero-subtitle">Contact Us</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">連絡先情報</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>📧 メールアドレス</h3>
+                        <p style="font-size: 18px; margin-top: 15px;">
+                            <a href="mailto:keisukemasuo@gmail.com" style="color: var(--primary-color); text-decoration: none;">
+                                keisukemasuo@gmail.com
+                            </a>
+                        </p>
+                        <p class="text-muted mt-20">お問い合わせの際は、件名に「JCC問い合わせ」とご記入ください。</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>📍 所在地</h3>
+                        <p style="margin-top: 15px;">
+                            埼玉県
+                        </p>
+                        <p class="text-muted mt-20">※現在、事務所での直接の対応は行っておりません。お問い合わせはメールにてお願いいたします。</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>⏰ 対応時間</h3>
+                        <p style="margin-top: 15px;">
+                            平日：10:00 - 17:00<br>
+                            （土日祝日を除く）
+                        </p>
+                        <p class="text-muted mt-20">お問い合わせへの返信は、通常3営業日以内に行います。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">お問い合わせフォーム</h2>
+                <div class="card" style="max-width: 800px; margin: 0 auto;">
+                    <form id="contact-form">
+                        <div style="margin-bottom: 25px;">
+                            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 500;">
+                                お名前 <span style="color: var(--primary-color);">*</span>
+                            </label>
+                            <input type="text" id="name" name="name" required
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 16px;">
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <label for="email" style="display: block; margin-bottom: 8px; font-weight: 500;">
+                                メールアドレス <span style="color: var(--primary-color);">*</span>
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 16px;">
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <label for="subject" style="display: block; margin-bottom: 8px; font-weight: 500;">
+                                お問い合わせ種別
+                            </label>
+                            <select id="subject" name="subject"
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 16px; background-color: white;">
+                                <option value="">選択してください</option>
+                                <option value="general">一般的なお問い合わせ</option>
+                                <option value="event">イベントについて</option>
+                                <option value="partnership">連携・協力について</option>
+                                <option value="media">取材・メディア関係</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 500;">
+                                お問い合わせ内容 <span style="color: var(--primary-color);">*</span>
+                            </label>
+                            <textarea id="message" name="message" rows="6" required
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 16px; resize: vertical;"></textarea>
+                        </div>
+
+                        <div style="text-align: center;">
+                            <button type="submit" class="btn-primary" style="padding: 15px 50px; font-size: 16px; border: none; cursor: pointer;">
+                                送信する
+                            </button>
+                        </div>
+
+                        <p class="text-muted text-center mt-20" style="font-size: 14px;">
+                            ※「送信する」ボタンをクリックすると、メールソフトが起動します。<br>
+                            メールソフトが起動しない場合は、上記メールアドレスに直接お送りください。
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">よくあるご質問</h2>
+                <div class="card">
+                    <div style="border-bottom: 1px solid var(--border-color); padding: 20px 0;">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Q. イベントへの参加申し込みはどのようにすればよいですか？</h4>
+                        <p>A. イベントの詳細が決定次第、本ウェブサイトで参加申し込み方法をご案内いたします。現在は準備段階のため、最新情報はニュースセクションでご確認ください。</p>
+                    </div>
+
+                    <div style="border-bottom: 1px solid var(--border-color); padding: 20px 0;">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Q. ボランティアとして活動に参加できますか？</h4>
+                        <p>A. はい、ボランティアの募集を行う予定です。募集開始時期が決まりましたら、ウェブサイトでお知らせいたします。</p>
+                    </div>
+
+                    <div style="border-bottom: 1px solid var(--border-color); padding: 20px 0;">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Q. 団体への寄付や支援はできますか？</h4>
+                        <p>A. ご支援のお申し出ありがとうございます。支援方法については、お問い合わせフォームよりご連絡ください。</p>
+                    </div>
+
+                    <div style="border-bottom: 1px solid var(--border-color); padding: 20px 0;">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Q. メディア取材の申し込みはどうすればよいですか？</h4>
+                        <p>A. メディア関係者の方は、お問い合わせフォームで「取材・メディア関係」を選択の上、詳細をご記入ください。</p>
+                    </div>
+
+                    <div style="padding: 20px 0;">
+                        <h4 style="color: var(--secondary-color); margin-bottom: 10px;">Q. 海外在住ですが、現地でのイベント開催を提案できますか？</h4>
+                        <p>A. はい、ご提案を歓迎いたします。お問い合わせフォームより、詳細なご提案内容をお送りください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Response Time Notice -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">お問い合わせに関するご注意</h2>
+                <div class="card text-center">
+                    <p>お問い合わせいただいた内容については、確認後、順次ご返信させていただきます。</p>
+                    <p class="mt-20">通常、3営業日以内にご返信いたしますが、内容によってはお時間をいただく場合がございます。</p>
+                    <p class="mt-20">1週間以上返信がない場合は、メールが届いていない可能性がございますので、<br>お手数ですが再度お問い合わせください。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Japan Culture Connect</h4>
+                    <p>日本文化で世界をつなぐ</p>
+                </div>
+                <div class="footer-section">
+                    <h4>リンク</h4>
+                    <a href="about.html">団体概要</a>
+                    <a href="project2026.html">プロジェクト2026</a>
+                    <a href="contact.html">お問い合わせ</a>
+                </div>
+                <div class="footer-section">
+                    <h4>法務情報</h4>
+                    <a href="privacy.html">プライバシーポリシー</a>
+                    <a href="ack.html">助成表記</a>
+                </div>
+                <div class="footer-section">
+                    <h4>お問い合わせ</h4>
+                    <p>埼玉県</p>
+                    <a href="mailto:keisukemasuo@gmail.com">keisukemasuo@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Japan Culture Connect (JCC). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
